@@ -1,0 +1,30 @@
+
+.title,
+.untitle,
+.dotitle {
+    background-color: pink;
+}
+
+.title {
+    font-style: verdana;
+}
+
+.untitle {
+    font-style: italic;
+    font-size: 24px;
+}
+
+.dotitle {
+    font-style: sans-serif;
+}
+
+.ni {
+    color: blue;
+    font-size: 36px;
+}
+
+.san {
+    background-color: green;
+    font-size: 24px;
+    font-weight: 700;
+}
