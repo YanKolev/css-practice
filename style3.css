@@ -1,0 +1,14 @@
+.ichi, 
+.ni {
+   font-size: 28px;
+   font-style: Helvetica,sans-serif;
+}
+
+.ichi {
+    color: white;
+    background-color: black;
+}
+
+.ni {
+    background-color: yellow;
+}
