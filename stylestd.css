@@ -1,0 +1,52 @@
+*,
+* ::before
+* ::after {
+    box-sizing: border-box;
+}
+/*method to ensure everything gets the border box
+All elements wil receives box sizing of border box*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*This is added to fix 'user agent stylesheet. 
+Adding it first to fix gap between viewport and the element.
+Always to be on top due to specificity*/
+
+
+.box {
+    font-size: 2rem;
+    background-color: pink;
+    /*Box Model*/
+    width: 300px;
+    height: 100px;
+    /*Common mistake when asked the size of div(300px+100px)->wrong.
+    Value of width and height- define the size of content area of box mode.
+    Content area is not the whole div->both padding and border are inside the div.
+    Only Margin is outside of the div */
+
+
+   /* padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-left:  32px;;*/
+    padding: 32px 64px 100px 10px;
+    /*Padding is added clockwise- top-right-bottom-left*/
+    border: 5px solid black;
+    /*firtst value-size, 2nd value-style, 3rd-color*/
+    /*margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;*/
+    margin: 0;
+    /*Same rules apply as paddding-clockwise*/
+    
+    
+    /*box-sizing: border-box;*/
+    /*Default method is content box, if you apply border box- values of 
+    height and width (used before to define content box)
+    now define the size of whole div(padding and border included)
+    Used for proper representation, hence used widely.
+    Trere are elements that use border-box by default, hence applying it to all
+    will be a lot of conistence*/
+}
