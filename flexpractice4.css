@@ -5,12 +5,31 @@ body {
   img {
     width: 100px;
     height: 100px;
+  
   }
   
   .title {
     font-size: 36px;
     font-weight: 900;
+    text-align: center;
+    gap: 32px;
+    }
+
+  
+  .berry, .chilli, .saffron, .pepper {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    text-wrap: wrap;
+    text-align: center;
   }
+  .herbs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 52px;
+  }
+  
   
   /* do not edit this footer */
   .footer {
