@@ -45,7 +45,7 @@ a {
   padding: 16px;
 }
 .footer {
-  background: #eeeeee;
+  background: rgb(105, 104, 104);
 }
 .content{
   display: flex;
